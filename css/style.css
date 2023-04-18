@@ -56,19 +56,17 @@ h2 {
 }
 
 /* EXERCICE 5 */
+.exercice5 {
+  display: flex;
+  justify-content: space-between;
+}
 .exercice5 div,
 .exercice5 ul {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  flex-wrap: wrap;
 }
 .exercice5 div {
   width: 80px;
-  display: flex;
-  justify-content: flex-start;
 }
-
 /* EXERCICE 6 */
 
 .exercice6 {
