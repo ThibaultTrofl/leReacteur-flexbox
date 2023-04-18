@@ -18,19 +18,70 @@ h2 {
 }
 
 /* EXERCICE 1 */
-.exercice1 {
+.exercice1 ul {
   display: flex;
-  align-items: baseline;
 }
 
 /* EXERCICE 2 */
+.exercice2 ul {
+  display: flex;
+  flex-direction: row-reverse;
+}
 
 /* EXERCICE 3 */
+.exercice3 ul {
+  display: flex;
+}
+
+.exercice3 .pill {
+  display: flex;
+  justify-content: center;
+  flex-grow: 5;
+}
 
 /* EXERCICE 4 */
+.exercice4 ul {
+  display: flex;
+  flex-grow: 3;
+}
+.exercice4 .pill {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.exercice4 .pill:nth-child(2n + 2) {
+  flex: 3;
+  margin: 0 20px;
+  /* background-color: black; */
+}
 
 /* EXERCICE 5 */
+.exercice5 div,
+.exercice5 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.exercice5 div {
+  width: 80px;
+  display: flex;
+  justify-content: flex-start;
+}
 
 /* EXERCICE 6 */
 
+.exercice6 {
+  display: flex;
+  justify-content: center;
+}
+
 /* EXERCICE 7 */
+.exercice7 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.exercice7 .pill {
+  border-radius: 50%;
+}
